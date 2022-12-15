@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListViewActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp">
+
+    <EditText
+       android:background="@drawable/shape_border"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:hint="Name"
+        android:padding="12dp"
+        android:layout_weight="1"
+        android:id="@+id/editName"/>
+
+        <EditText
+            android:background="@drawable/shape_border"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:hint="Job"
+            android:padding="12dp"
+            android:layout_weight="1"
+            android:id="@+id/editJob"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/shape_border_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/btnAdd"
+        android:text="Add"
+        android:textStyle="bold"/>
+</LinearLayout>
+    <ListView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/listView"/>
+</LinearLayout>

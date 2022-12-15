@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A029B5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:layout_margin="10dp"
+      android:background="#A4E887A8"
+      android:hint="Name:"
+      android:padding="10dp" />
+
+  <EditText
+      android:id="@+id/editage"
+      android:layout_width="match_parent"
+      android:layout_height="45dp"
+      android:layout_margin="10dp"
+      android:background="#A4E887A8"
+      android:hint="Age:"
+      android:padding="10dp"
+      tools:ignore="DuplicateIds" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/clickbtn"
+      android:layout_width="155dp"
+      android:layout_height="50dp"
+      android:layout_margin="100dp"
+      android:background="#E887A8"
+      android:gravity="center"
+      android:padding="10dp"
+      android:text="Click"
+      android:textColor="#540461"
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+</LinearLayout>

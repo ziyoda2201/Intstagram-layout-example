@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/delete_settings"
+            android:title="Delete" />
+        <item
+            android:id="@+id/cleaning_settings"
+            android:title="Cleaning" />
+        <item
+            android:id="@+id/return_settings"
+            android:title="Return" />
+    </group>
+
+</menu>

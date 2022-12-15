@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MahsulotQoshishActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/shape_border"
+            android:id="@+id/MahsulotNomi"
+            android:padding="11dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:hint="Nomi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:inputType="number"
+            android:background="@drawable/shape_border"
+            android:id="@+id/MahsulotNarxi"
+            android:padding="11dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:hint="Narxi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:inputType="date"
+            android:background="@drawable/shape_border"
+            android:id="@+id/MahsulotSanasi"
+            android:padding="11dp"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:hint="Ishlab chiqarilgan sanasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Qoshish"
+            android:padding="15dp"
+            android:textColor="#151515"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:textAllCaps="false"
+            android:text="Qo'shish"
+            android:background="@color/purple_200"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/productRecycler"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+</LinearLayout>

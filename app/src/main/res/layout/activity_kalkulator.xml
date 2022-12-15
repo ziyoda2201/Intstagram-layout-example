@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KalkulatorActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:padding="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/birinchi_son"
+            android:text="Birinchi son"
+            android:layout_weight="1"
+            android:textColor="#AFAAAA"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shape_border"
+            />
+
+
+        <TextView
+            android:id="@+id/amal"
+            android:layout_marginEnd="12dp"
+            android:layout_width="55dp"
+            android:layout_marginStart="19dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_border"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/ikkinchi_son"
+            android:text="Ikkinchi son"
+            android:layout_weight="1"
+            android:layout_marginStart="9dp"
+            android:textColor="#AFAAAA"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shape_border"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/qoshishbtn"
+            android:layout_marginStart="3.9dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_border_button"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/oluvbtn"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_border_button"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kopaytirishbtn"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_border_button"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolishbtn"
+            android:layout_marginStart="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_border_button"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/natija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:padding="10dp"
+        android:hint="Natija"
+        android:textColor="#AFAAAA" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/teng"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3.9dp"
+        android:background="@drawable/shape_border_button"
+        android:text="="
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

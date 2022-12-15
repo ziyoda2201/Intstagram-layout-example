@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E887A8"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SecaundActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="#A029B5"
+        android:padding="10dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_margin="100dp"
+        android:background="#540461"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Click"
+        android:textColor="#E887A8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
